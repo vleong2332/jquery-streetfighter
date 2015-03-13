@@ -13,6 +13,7 @@ body {
 	background-color: #000000;
 	margin-top: 110px;
 	min-width: 1200px;
+	max-width: 1900px;
 }
 #content {
 	height: 494px;
@@ -21,6 +22,22 @@ body {
 	background-size: 1800px 600px ;
 	background-repeat: no-repeat;
 	background-position: bottom center;
+}
+.ryu {
+	display: inline-block;
+	float: left;
+	width: 659px;
+	height: 494px;
+	margin: 0;
+}
+.hidden {
+	display: none;
+}
+#hadouken {
+	float: left;
+	position: relative;
+	top: 165px;
+	left: -200px;
 }
 #instruction_box {
 /*	position: absolute;
@@ -36,18 +53,4 @@ p {
 	font-size: 2rem;
 	font-family: 'action_manregular';
 	color: #FFFFFF;
-}
-.ryu {
-	display: none;
-	width: 659px;
-	height: 494px;
-	margin: 0;
-}
-.ryu_shown {
-	display: inline-block;
-}
-#hadouken {
-	position: absolute;
-	top: 275px;
-	left: 570px;
 }
