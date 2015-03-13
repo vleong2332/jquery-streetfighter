@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'action_manregular';
+    src: url('../fonts/actionman_regular_macroman/Action_Man-webfont.eot');
+    src: url('../fonts/actionman_regular_macroman/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/actionman_regular_macroman/Action_Man-webfont.woff') format('woff'),
+         url('../fonts/actionman_regular_macroman/Action_Man-webfont.ttf') format('truetype'),
+         url('../fonts/actionman_regular_macroman/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background-color: #000000;
+	margin-top: 110px;
+	min-width: 1200px;
+}
+#content {
+	height: 494px;
+	padding-left: 100px;
+	background: url('../images/ryubackground_1024.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10% center;
+}
+#instruction_box {
+/*	position: absolute;
+	top: 110px;
+	left: 600px;*/
+	width: 60%;
+	float: right;
+	margin-left: -100%;
+	background-color: rgba(0,0,0,0.5);
+}
+p {
+	margin: 2rem 2rem;
+	font-size: 2rem;
+	font-family: 'action_manregular';
+	color: #FFFFFF;
+}
+.ryu {
+	display: none;
+	width: 659px;
+	height: 494px;
+	margin: 0;
+}
+.ryu_shown {
+	display: inline-block;
+}
+#hadouken {
+	position: absolute;
+	top: 275px;
+	left: 570px;
+}
