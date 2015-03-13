@@ -23,21 +23,22 @@ body {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 }
-.ryu {
+#images {
 	display: inline-block;
-	float: left;
 	width: 659px;
 	height: 494px;
 	margin: 0;
+}
+#images [id^=ryu_] {
+	position: absolute;
 }
 .hidden {
 	display: none;
 }
 #hadouken {
-	float: left;
 	position: relative;
 	top: 165px;
-	left: -200px;
+	left: 420px;
 }
 #instruction_box {
 /*	position: absolute;
