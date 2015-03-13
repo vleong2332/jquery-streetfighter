@@ -17,10 +17,10 @@ body {
 #content {
 	height: 494px;
 	padding-left: 100px;
-	background: url('../images/ryubackground_1024.png');
-	background-size: cover;
+	background: url('../images/hondasfz3stage.gif');
+	background-size: 1800px 600px ;
 	background-repeat: no-repeat;
-	background-position: 10% center;
+	background-position: bottom center;
 }
 #instruction_box {
 /*	position: absolute;
