@@ -2,25 +2,6 @@ $(document).ready(function() {
 	// DEBUG: print ready message
 	console.log("page is loaded.");
 
-//	// Mouse hover around Ryu's image
-//	$('#images').hover(
-//		// Mouse in: Ryu gets ready
-//		function() {
-//			// DEBUG
-//			//console.log("mouse in");
-//			$(this).find('#ryu_stand').hide();
-//			$(this).find('#ryu_ready').show();
-//		},
-//		// Mouse out: Ryu stands still
-//		function () {
-//			// DEBUG
-//			//console.log("mouse out");
-//			$(this).find('#ryu_ready').hide();
-//			$(this).find('#ryu_stand').show();
-//			$(this).find('#ryu_throw').hide();
-//		}
-//	);
-
 	// Ryu gets in his stance on mouse hover
 	$('#images').mouseenter(function() {
 		$('#ryu_stand').hide();
@@ -85,10 +66,6 @@ $(document).ready(function() {
 		 	// Print which key is pressed if it's not 'x'
 		 	console.log(event.which + 'is pressed');
 	});
-
-	// $document.keypress(function(event) {
-	// 	backgroundMusic();
-	// });
  
 	// Ryu returns to acting normal when 'x' is no longer pressed
 	$(document).keyup( function(event) {
